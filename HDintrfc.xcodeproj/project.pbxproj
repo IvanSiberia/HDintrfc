@@ -7,9 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319EFCCD2377F9D100CC67A3 /* MedicalOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB02377F9CF00CC67A3 /* MedicalOrganization.swift */; };
+		319EFCCE2377F9D100CC67A3 /* ProfileKeyJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB12377F9CF00CC67A3 /* ProfileKeyJob.swift */; };
+		319EFCCF2377F9D100CC67A3 /* ProfileKeyInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB22377F9CF00CC67A3 /* ProfileKeyInterests.swift */; };
+		319EFCD02377F9D100CC67A3 /* UpdateProfileUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB42377F9CF00CC67A3 /* UpdateProfileUser.swift */; };
+		319EFCD12377F9D100CC67A3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB52377F9CF00CC67A3 /* Profile.swift */; };
+		319EFCD22377F9D100CC67A3 /* UpdateProfileInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB62377F9CF00CC67A3 /* UpdateProfileInterest.swift */; };
+		319EFCD32377F9D100CC67A3 /* UpdateProfileSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB72377F9CF00CC67A3 /* UpdateProfileSpec.swift */; };
+		319EFCD42377F9D100CC67A3 /* UpdateProfileJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB82377F9CF00CC67A3 /* UpdateProfileJob.swift */; };
+		319EFCD52377F9D100CC67A3 /* ListOfInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCB92377F9CF00CC67A3 /* ListOfInterests.swift */; };
+		319EFCD62377F9D100CC67A3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCBB2377F9CF00CC67A3 /* NetworkService.swift */; };
+		319EFCD72377F9D100CC67A3 /* GetCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCBC2377F9CF00CC67A3 /* GetCities.swift */; };
+		319EFCD82377F9D100CC67A3 /* MedicalSpecialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCBD2377F9CF00CC67A3 /* MedicalSpecialization.swift */; };
+		319EFCD92377F9D100CC67A3 /* ProfileKeySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCBE2377F9CF00CC67A3 /* ProfileKeySpec.swift */; };
+		319EFCDA2377F9D100CC67A3 /* ProfileKeyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCBF2377F9CF00CC67A3 /* ProfileKeyUser.swift */; };
+		319EFCDB2377F9D100CC67A3 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC02377F9CF00CC67A3 /* Cities.swift */; };
+		319EFCDC2377F9D100CC67A3 /* GetMedicalOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC12377F9D000CC67A3 /* GetMedicalOrganization.swift */; };
+		319EFCDD2377F9D100CC67A3 /* PublicMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC22377F9D000CC67A3 /* PublicMethod.swift */; };
+		319EFCDE2377F9D100CC67A3 /* GetRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC32377F9D000CC67A3 /* GetRegions.swift */; };
+		319EFCDF2377F9D100CC67A3 /* GetDataProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC42377F9D000CC67A3 /* GetDataProfile.swift */; };
+		319EFCE02377F9D100CC67A3 /* GetListOfInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC52377F9D000CC67A3 /* GetListOfInterests.swift */; };
+		319EFCE12377F9D100CC67A3 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC62377F9D000CC67A3 /* Regions.swift */; };
+		319EFCE22377F9D100CC67A3 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC82377F9D000CC67A3 /* Registration.swift */; };
+		319EFCE32377F9D100CC67A3 /* GetMedicalSpecialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCC92377F9D000CC67A3 /* GetMedicalSpecialization.swift */; };
+		319EFCE42377F9D100CC67A3 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCCA2377F9D000CC67A3 /* KeychainWrapper.swift */; };
+		319EFCE52377F9D100CC67A3 /* GetAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCCB2377F9D000CC67A3 /* GetAuthToken.swift */; };
+		319EFCE62377F9D100CC67A3 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFCCC2377F9D100CC67A3 /* KeychainItemAccessibility.swift */; };
 		31B88D912363110900C67826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D902363110900C67826 /* AppDelegate.swift */; };
 		31B88D932363110900C67826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B88D922363110900C67826 /* ViewController.swift */; };
-		31B88D962363110900C67826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D942363110900C67826 /* Main.storyboard */; settings = {ASSET_TAGS = (FirstScreen, ); }; };
+		31B88D962363110900C67826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D942363110900C67826 /* Main.storyboard */; };
 		31B88D982363110C00C67826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D972363110C00C67826 /* Assets.xcassets */; };
 		31B88D9B2363110C00C67826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B88D992363110C00C67826 /* LaunchScreen.storyboard */; };
 		31B88DA42363189700C67826 /* Backgr3 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B88DA32363189700C67826 /* Backgr3 1.png */; };
@@ -18,6 +44,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		319EFCB02377F9CF00CC67A3 /* MedicalOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalOrganization.swift; sourceTree = "<group>"; };
+		319EFCB12377F9CF00CC67A3 /* ProfileKeyJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileKeyJob.swift; sourceTree = "<group>"; };
+		319EFCB22377F9CF00CC67A3 /* ProfileKeyInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileKeyInterests.swift; sourceTree = "<group>"; };
+		319EFCB42377F9CF00CC67A3 /* UpdateProfileUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileUser.swift; sourceTree = "<group>"; };
+		319EFCB52377F9CF00CC67A3 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		319EFCB62377F9CF00CC67A3 /* UpdateProfileInterest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileInterest.swift; sourceTree = "<group>"; };
+		319EFCB72377F9CF00CC67A3 /* UpdateProfileSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileSpec.swift; sourceTree = "<group>"; };
+		319EFCB82377F9CF00CC67A3 /* UpdateProfileJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfileJob.swift; sourceTree = "<group>"; };
+		319EFCB92377F9CF00CC67A3 /* ListOfInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfInterests.swift; sourceTree = "<group>"; };
+		319EFCBB2377F9CF00CC67A3 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		319EFCBC2377F9CF00CC67A3 /* GetCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCities.swift; sourceTree = "<group>"; };
+		319EFCBD2377F9CF00CC67A3 /* MedicalSpecialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalSpecialization.swift; sourceTree = "<group>"; };
+		319EFCBE2377F9CF00CC67A3 /* ProfileKeySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileKeySpec.swift; sourceTree = "<group>"; };
+		319EFCBF2377F9CF00CC67A3 /* ProfileKeyUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileKeyUser.swift; sourceTree = "<group>"; };
+		319EFCC02377F9CF00CC67A3 /* Cities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		319EFCC12377F9D000CC67A3 /* GetMedicalOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMedicalOrganization.swift; sourceTree = "<group>"; };
+		319EFCC22377F9D000CC67A3 /* PublicMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicMethod.swift; sourceTree = "<group>"; };
+		319EFCC32377F9D000CC67A3 /* GetRegions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRegions.swift; sourceTree = "<group>"; };
+		319EFCC42377F9D000CC67A3 /* GetDataProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDataProfile.swift; sourceTree = "<group>"; };
+		319EFCC52377F9D000CC67A3 /* GetListOfInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetListOfInterests.swift; sourceTree = "<group>"; };
+		319EFCC62377F9D000CC67A3 /* Regions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		319EFCC82377F9D000CC67A3 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		319EFCC92377F9D000CC67A3 /* GetMedicalSpecialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMedicalSpecialization.swift; sourceTree = "<group>"; };
+		319EFCCA2377F9D000CC67A3 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		319EFCCB2377F9D000CC67A3 /* GetAuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAuthToken.swift; sourceTree = "<group>"; };
+		319EFCCC2377F9D100CC67A3 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		31B88D8D2363110900C67826 /* HDintrfc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDintrfc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B88D902363110900C67826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B88D922363110900C67826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +93,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319EFCB32377F9CF00CC67A3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				319EFCB42377F9CF00CC67A3 /* UpdateProfileUser.swift */,
+				319EFCB52377F9CF00CC67A3 /* Profile.swift */,
+				319EFCB62377F9CF00CC67A3 /* UpdateProfileInterest.swift */,
+				319EFCB72377F9CF00CC67A3 /* UpdateProfileSpec.swift */,
+				319EFCB82377F9CF00CC67A3 /* UpdateProfileJob.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		319EFCBA2377F9CF00CC67A3 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				319EFCBB2377F9CF00CC67A3 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		319EFCC72377F9D000CC67A3 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				319EFCC82377F9D000CC67A3 /* Registration.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		319EFCE72377F9DE00CC67A3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				319EFCBA2377F9CF00CC67A3 /* NetworkService */,
+				319EFCB32377F9CF00CC67A3 /* Profile */,
+				319EFCB22377F9CF00CC67A3 /* ProfileKeyInterests.swift */,
+				319EFCB12377F9CF00CC67A3 /* ProfileKeyJob.swift */,
+				319EFCBE2377F9CF00CC67A3 /* ProfileKeySpec.swift */,
+				319EFCBF2377F9CF00CC67A3 /* ProfileKeyUser.swift */,
+				319EFCC22377F9D000CC67A3 /* PublicMethod.swift */,
+				319EFCC62377F9D000CC67A3 /* Regions.swift */,
+				319EFCC72377F9D000CC67A3 /* Registration */,
+				319EFCC02377F9CF00CC67A3 /* Cities.swift */,
+				319EFCCB2377F9D000CC67A3 /* GetAuthToken.swift */,
+				319EFCBC2377F9CF00CC67A3 /* GetCities.swift */,
+				319EFCC42377F9D000CC67A3 /* GetDataProfile.swift */,
+				319EFCC52377F9D000CC67A3 /* GetListOfInterests.swift */,
+				319EFCC12377F9D000CC67A3 /* GetMedicalOrganization.swift */,
+				319EFCC92377F9D000CC67A3 /* GetMedicalSpecialization.swift */,
+				319EFCC32377F9D000CC67A3 /* GetRegions.swift */,
+				319EFCCC2377F9D100CC67A3 /* KeychainItemAccessibility.swift */,
+				319EFCCA2377F9D000CC67A3 /* KeychainWrapper.swift */,
+				319EFCB92377F9CF00CC67A3 /* ListOfInterests.swift */,
+				319EFCB02377F9CF00CC67A3 /* MedicalOrganization.swift */,
+				319EFCBD2377F9CF00CC67A3 /* MedicalSpecialization.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		31B88D842363110900C67826 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +169,7 @@
 		31B88D8F2363110900C67826 /* HDintrfc */ = {
 			isa = PBXGroup;
 			children = (
+				319EFCE72377F9DE00CC67A3 /* API */,
 				31B88D902363110900C67826 /* AppDelegate.swift */,
 				31B88D942363110900C67826 /* Main.storyboard */,
 				31B88D992363110C00C67826 /* LaunchScreen.storyboard */,
@@ -164,10 +274,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319EFCDD2377F9D100CC67A3 /* PublicMethod.swift in Sources */,
+				319EFCD52377F9D100CC67A3 /* ListOfInterests.swift in Sources */,
+				319EFCD42377F9D100CC67A3 /* UpdateProfileJob.swift in Sources */,
+				319EFCD92377F9D100CC67A3 /* ProfileKeySpec.swift in Sources */,
 				31B88D932363110900C67826 /* ViewController.swift in Sources */,
 				31B88D912363110900C67826 /* AppDelegate.swift in Sources */,
+				319EFCE22377F9D100CC67A3 /* Registration.swift in Sources */,
+				319EFCDE2377F9D100CC67A3 /* GetRegions.swift in Sources */,
+				319EFCD82377F9D100CC67A3 /* MedicalSpecialization.swift in Sources */,
 				31B88DAB236322A700C67826 /* RegistrationController.swift in Sources */,
+				319EFCD72377F9D100CC67A3 /* GetCities.swift in Sources */,
+				319EFCE52377F9D100CC67A3 /* GetAuthToken.swift in Sources */,
+				319EFCCF2377F9D100CC67A3 /* ProfileKeyInterests.swift in Sources */,
+				319EFCD62377F9D100CC67A3 /* NetworkService.swift in Sources */,
+				319EFCCD2377F9D100CC67A3 /* MedicalOrganization.swift in Sources */,
+				319EFCD02377F9D100CC67A3 /* UpdateProfileUser.swift in Sources */,
+				319EFCD32377F9D100CC67A3 /* UpdateProfileSpec.swift in Sources */,
+				319EFCDB2377F9D100CC67A3 /* Cities.swift in Sources */,
+				319EFCE42377F9D100CC67A3 /* KeychainWrapper.swift in Sources */,
+				319EFCD22377F9D100CC67A3 /* UpdateProfileInterest.swift in Sources */,
+				319EFCDA2377F9D100CC67A3 /* ProfileKeyUser.swift in Sources */,
 				31B88DA92363210F00C67826 /* AuthorisationController.swift in Sources */,
+				319EFCD12377F9D100CC67A3 /* Profile.swift in Sources */,
+				319EFCE62377F9D100CC67A3 /* KeychainItemAccessibility.swift in Sources */,
+				319EFCE32377F9D100CC67A3 /* GetMedicalSpecialization.swift in Sources */,
+				319EFCDF2377F9D100CC67A3 /* GetDataProfile.swift in Sources */,
+				319EFCE02377F9D100CC67A3 /* GetListOfInterests.swift in Sources */,
+				319EFCE12377F9D100CC67A3 /* Regions.swift in Sources */,
+				319EFCCE2377F9D100CC67A3 /* ProfileKeyJob.swift in Sources */,
+				319EFCDC2377F9D100CC67A3 /* GetMedicalOrganization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +450,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P2FWGUH8T;
 				INFOPLIST_FILE = HDintrfc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IP.HDintrfc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,7 +469,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P2FWGUH8T;
 				INFOPLIST_FILE = HDintrfc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IP.HDintrfc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

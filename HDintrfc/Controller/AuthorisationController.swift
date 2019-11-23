@@ -24,7 +24,7 @@ class AuorisattionController: UIViewController {
         loginTextField.placeholder = "Login"
         passwordTextField.placeholder = "Password"
         
-        loginButton.setTitle("Log In", for: .normal)
+        loginButton.setTitle("Войти", for: .normal)
     }
         
 }
